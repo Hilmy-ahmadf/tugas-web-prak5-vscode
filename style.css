@@ -94,7 +94,7 @@ body {
     padding-right: 12.6%;
 }
 #sidebar li{
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     display:flex;
     font-size: 20px;
 }
@@ -105,30 +105,35 @@ body {
 #sidebar img{
     width: 40px;
     padding-left: 15px;
+
 }
 @media only screen and (max-width: 1360px) {
     #sidebar{
-        width: 25%;
+        width:87%;
+        padding-right: 12.5%;
     }
     #nav input{
         margin-top: 0%;
+        top: auto;
+        height: auto;
     }
     #header input{
         display: none;
     }
-    #konten{
+    .konten{
         width: 79%;
         font-size: 100%;
         height: auto;
+        padding-left: 19.5%;
     }
 }
 @media screen and (max-width: 1290px) {
-    #konten{
+    .konten{
         width: 80%;
         font-size: 90%;
         height: auto;
     }
-    #sidebar{
+    .sidebar{
         width: 25%;
     }
     #header input{
@@ -136,16 +141,19 @@ body {
     }
     #nav input{
         margin-left: 70%;
+        height: auto;
+        width: auto;
     }
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 700px){
     #sidebar{
         width: auto;
+       margin-right: 10%;
         float: none;
         clear: both;
     }
     .konten{
-        width:auto;
+        width:80%;
         height: auto;
         font-size: auto;
     }
@@ -166,17 +174,18 @@ body {
     }
     #sidebar{
         clear:both;
+        width: 85%;
     }
     h1{
         font-size: auto;
     }
     #nav{
-        width: 100%;
+        width: 98%;
     }
     #nav input{
         display: flex;
         margin-left: 70%;
         width: 20%;
-        top: 10%;
+        top: 8%;
     }
 }
